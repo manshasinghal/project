@@ -1,0 +1,29 @@
+h2:before{
+  background: linear-gradient(to left, #0abfbc , #fcfcfc);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  white-space: nowrap;
+  content: attr(data-text);
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 0;
+  transition: 1s;
+  overflow: hidden;
+}
+@media (max-width: 767px) {
+  .nav {
+    display: none;
+  }
+}
+/* Navbar.css */
+.logo-container {
+  opacity: 0.7; /* Adjust the opacity value as needed */
+}
+
+.logo-image {
+  width: 100%; /* Make sure the image takes up the entire div */
+  height: 100%;
+  object-fit: contain; /* Adjust the object-fit property as needed */
+}

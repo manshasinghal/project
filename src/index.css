@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.s-b-text p{
+  /* margin: 0px; */
+  color:#000;
+  font-size: 1.1rem;
+  margin-left: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /* display: block; */
+line-height: 1.2rem;
+  /* display: -webkit-box; */
+  max-width: 80%;
+  margin-top: 25px;
+  /* -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical; */
+  /* overflow: hidden;
+  text-overflow: ellipsis; */
+}
+.s-b-text p:hover{
+  color:#000266;
+}
+
+.s-b-text h2{
+margin-left: 80px;
+
+}
+.s-b-text button{
+  margin-left: 48px;
+  background-color: #90EE90
+  ;
+  padding: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  cursor: pointer;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
